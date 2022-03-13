@@ -27,7 +27,7 @@ public class Ex_1_5 {
         System.out.println("Отрицательное");
     }
 
-    public static boolean checkForPositivityElse(int a) {
+    public static boolean  checkForPositivityElse(int a) {
         if (a >= 0) {
             return true;
         }
