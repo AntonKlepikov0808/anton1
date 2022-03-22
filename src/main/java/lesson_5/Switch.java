@@ -2,9 +2,7 @@ package lesson_5;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Homework 1
- */
+
 public class Switch {
     public static void main(String[] args) {
 
