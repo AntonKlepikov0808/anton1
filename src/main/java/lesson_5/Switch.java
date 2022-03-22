@@ -1,31 +1,21 @@
 package lesson_5;
+import java.util.Arrays;
+import java.util.List;
 
-import java.nio.charset.Charset;
-import java.util.Random;
-
+/**
+ * Homework 1
+ */
 public class Switch {
-    public static void switchIndex(String[] array, int firstIndex, int secondIndex){
-        String x;
-        x = array[firstIndex];
-        array[firstIndex] = array[secondIndex];
-        array[secondIndex] = x;
+    public static void main(String[] args) {
+
+        String[] arr = {"asd", "ds", "ret", "123"};
+        //Integer[] arr = {3, 4, 6, 234, -1324, 111};
+
+        System.out.println("Task 1\n" + Arrays.toString(arr));
+        swapElements(arr, 2, 3);
+        System.out.println(Arrays.toString(arr));
     }
 
-    public static void main(String[] args) {
-        String[] listOfString = new String[10];
-
-        for (int i = 0; i < 10; i++) {
-            byte[] array = new byte[7];
-            new Random().nextBytes(array);
-            listOfString[i] =  new String(array, Charset.forName("UTF-8"));
-            System.out.print(listOfString[i] + " ");
-        }
-
-        switchIndex(listOfString, 0, 9);
-
-        for(String string: listOfString){
-            System.out.println(string);
-        }
-
+    private static void swapElements(String[] arr, int i, int i1) {
     }
 }
