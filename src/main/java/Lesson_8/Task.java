@@ -22,6 +22,6 @@ public class Task {
         pb.add("Klepikov", "375295124049");
         pb.add("Klepikov", "375297165149");
 
-        System.out.println(pb.get("Petrov"));
+        System.out.println(pb.get("Klepikov"));
     }
 }
